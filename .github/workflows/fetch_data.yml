@@ -3,7 +3,7 @@ name: Automatisation récupération des données RTE
 on:
   push:
   schedule:
-    - cron: "10 13 * * *"  # 13h10 UTC (14h10 heure française)
+    - cron: "10 13 * * *"  #13h10 UTC (14h10 heure française)
 
 jobs:
   fetch-data:
