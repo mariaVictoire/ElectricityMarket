@@ -13,13 +13,13 @@ Les données correspondent au marché spot français et contiennent, pour chaque
 
 - `start_date` : début de la période
 - `end_date` : fin de la période
-- `volume_mwh` : volume échangé (en MWh)
-- `price_eur_mwh` : prix spot (en €/MWh)
+- `volume` : volume échangé (en MWh)
+- `price` : prix spot (en €/MWh)
 
 ### Pas de temps des données (point important)
 ⚠️ Le pas de temps des données a évolué :
-- **jusqu’à septembre 2024** : pas **horaire**
-- **depuis septembre 2024** : pas **15 minutes**
+- **jusqu’à octobre 2025** : pas **horaire**
+- **depuis octobre 2025** : pas **15 minutes**
 
 Ce changement doit être pris en compte dans toute analyse temporelle (agrégation, comparaison interannuelle, etc.).
 
